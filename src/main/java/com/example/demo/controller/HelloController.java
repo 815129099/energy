@@ -27,7 +27,7 @@ public class HelloController {
     @Autowired
     private LearnResouceService learnResouceService;
 
-    @RequestMapping("/index")
+    @RequestMapping("/index1")
     public String test(){
         bookBean.setBookId("00011");
         bookBean.setBookName("kitty");
@@ -35,7 +35,7 @@ public class HelloController {
     }
 
     @RequestMapping("/he")
-    public String index(){
+    public String index2(){
         return name;
     }
 
